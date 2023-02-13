@@ -1,5 +1,3 @@
-// Lior Shlomo - 208011197
-// Zohar Hazani - 209189380
 
 // addcost.js - This file creates an Express router that implements a POST endpoint for adding new costs.
 // The cost data is stored in a MongoDB database using the Mongoose model defined in this file.
