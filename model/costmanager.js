@@ -1,5 +1,4 @@
-// Lior Shlomo - 208011197
-// Zohar Hazani - 209189380
+
 
 // Import the Mongoose library
 const mongoose = require('mongoose');
