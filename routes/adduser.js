@@ -4,8 +4,6 @@ const express = require('express');
 const router = express.Router();
 const mongoose = require('../model/costmanager');
 const User = require('../model/usermongconn');
-// Lior Shlomo - 208011197
-// Zohar Hazani - 209189380
 
 // This function handles an HTTP POST request to the "/" endpoint and creates a new user in the database.
 // It creates a new user object from the request data, which contains the user's ID, first name, last name,
