@@ -1,5 +1,3 @@
-// Lior Shlomo - 208011197
-// Zohar Hazani - 209189380
 
 var createError = require('http-errors');
 var express = require('express');
