@@ -87,13 +87,13 @@ router.post('/', async (req, res) => {
         let currDay, currMonth,currYear;
         const date = new Date();
 
-        if(!req.body.day){currDay = date.getDay(); }
+        if(!req.body.day){currDay = date.getDate(); }
         else
         {
             validateDay(req.body.day);
             currDay = req.body.day ;
         }
-        if(!req.body.month){currMonth = date.getMonth(); }
+        if(!req.body.month){currMonth = date.getMonth() + 1; }
         else
         {
             validateMonth(req.body.month);
